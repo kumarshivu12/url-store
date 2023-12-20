@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "URL Storage Extension",
+  "author": "Shivam Kumar",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "50": "./images/url.png",
+      "100": "./images/url-100.png"
+    }
+  },
+  "icons": {
+    "50": "./images/url.png",
+    "100": "./images/url-100.png"
+  }
+}
